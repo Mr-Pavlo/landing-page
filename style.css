@@ -253,10 +253,17 @@ input[type="submit"] {
     section {
         margin-bottom: 50px;
         scroll-margin-top: 135px;
+        max-width: 425px;
+        text-align: justify;
+        padding: 0 10px;
     }
 
     h1 {
         font-size: 1.9rem;
+    }
+
+    #header-img {
+        width: 420px;
     }
 
     .search input[type="email"] {
@@ -286,13 +293,14 @@ input[type="submit"] {
     }
 
     .how_it_works iframe {
-        max-width: 460px;
-        height: 260px;
+        min-width: 300px;
+        max-width: 400px;
+        height: 220px;
     }
 
     .pricing {
         display: grid;
-        grid-template-columns: minmax(300px, 420px);
+        grid-template-columns: minmax(300px, 400px);
         gap: 2rem;
         justify-content: center;
     }

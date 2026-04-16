@@ -204,7 +204,7 @@ input[type="submit"] {
 
 .card {
     border: 1px solid #000000;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .card p {
@@ -235,11 +235,10 @@ input[type="submit"] {
     background-color: #ff8c00;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 426px) {
     header div {
-        display: flex;
         flex-direction: column;
-        align-items: center;
+        padding-bottom: 4px;
     }
 
     header {

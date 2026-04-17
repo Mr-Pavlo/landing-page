@@ -247,13 +247,14 @@ input[type="submit"] {
 
     header ul {
         gap: 50px;
-        font-size: 1.2rem;
+        font-size: 1.15rem;
     }
 
     section {
         margin-bottom: 50px;
         scroll-margin-top: 135px;
-        max-width: 425px;
+        min-width: 280px;
+        max-width: 400px;
         text-align: justify;
         padding: 0 10px;
     }
@@ -263,7 +264,8 @@ input[type="submit"] {
     }
 
     #header-img {
-        width: 420px;
+        min-width: 280px;
+        max-width: 380px;
     }
 
     .search input[type="email"] {
@@ -293,14 +295,14 @@ input[type="submit"] {
     }
 
     .how_it_works iframe {
-        min-width: 300px;
-        max-width: 400px;
+        min-width: 260px;
+        max-width: 380px;
         height: 220px;
     }
 
     .pricing {
         display: grid;
-        grid-template-columns: minmax(300px, 400px);
+        grid-template-columns: minmax(280px, 380px);
         gap: 2rem;
         justify-content: center;
     }
